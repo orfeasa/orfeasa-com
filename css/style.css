@@ -5,22 +5,45 @@ body{
     background-image: url("../img/background.jpg");
     background-size: cover;
 
- 
+ /* add the below to the cover
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+      
+    top: 0;
+      */
 
 } 
 
+html, body, .container-center {
+    height: 100%;
+}
+
+.container-center {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
 h1{
-    color: #5b5b5b ;
+    color: #716e6e ;
 }
 
 .img-profile{
-    width: 25%;
+    width: 200px;
+    border: 1px solid #d0d0d0;
 }
 
-.gray{
+.social{
     color: gray;
+    margin: 16px;
 }
-
 
 i.fa {
     display: inline-block;
