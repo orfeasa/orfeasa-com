@@ -1,53 +1,230 @@
-body{
-    font-family: 'PT Mono', monospace;
-
-
-    background-image: url("../img/background.jpg");
-    background-size: cover;
-
- /* add the below to the cover
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-      
-    top: 0;
-      */
-
-} 
-
-html, body, .container-center {
-    height: 100%;
+body {
+  font-family: "Victor Mono", sans-serif;
 }
 
-.container-center {
-    display: -webkit-flexbox;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    justify-content: center;
+* {
+  color: #707070;
 }
 
-h1, h2, h3, h4{
-    color: #716e6e ;
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
-.img-profile{
-    width: 200px;
-    border: 1px solid #d0d0d0;
+a:hover {
+  color: #414727;
 }
 
-.social{
-    color: gray;
-    margin: 16px;
+h1 {
+  font-size: 54px;
+  color: #94c9ac;
+  font-weight: 500;
 }
 
-i.fa {
-    display: inline-block;
-    border-radius: 60px;
-    box-shadow: 0px 0px 2px #888;
-    padding: 0.5em 0.6em;
-  }
+h2 {
+  font-size: 36px;
+  line-height: 51px;
+  color: #414727;
+}
+
+h3 {
+  font-size: 26px;
+  line-height: 37px;
+}
+
+nav.navbar {
+  font-size: 28px;
+  text-transform: uppercase;
+  display: flex;
+  width: 90%;
+  margin: 24px auto;
+  justify-content: space-between;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar-right li {
+  margin-right: 40px;
+}
+
+.navbar-right li:last-child {
+  margin-right: 0;
+}
+
+nav.navbar .active {
+  color: #77ba7e;
+}
+
+.small-text {
+  color: #acacac;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+main {
+  width: 90%;
+  max-width: 90%;
+  margin: 0 auto 100px;
+}
+
+main.inner {
+  width: 90%;
+  margin: 148px auto 100px;
+}
+
+.jumbotron {
+  position: relative;
+  text-align: center;
+  margin-top: 112px;
+  padding: 16px;
+  min-height: 658px;
+}
+
+.jumbotron h1 {
+  margin-bottom: 32px;
+}
+
+.jumbotron img.background {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+img.profile {
+  width: 324px;
+  height: 324px;
+}
+
+.jumbotron img.profile {
+  position: absolute;
+  height: auto;
+  border: 4px solid #94c9ac;
+  border-radius: 100%;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+ul.social {
+  display: flex;
+  justify-content: space-between;
+  max-width: 580px;
+  flex-direction: column;
+  margin: 180px auto 0;
+}
+
+ul.social li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 26px;
+  margin-bottom: 24px;
+}
+
+ul.social li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul.social li img {
+  margin-bottom: 24px;
+}
+
+/***************** 
+ *  About Page 
+ *****************/
+
+main#about .header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main#about .header h1 {
+  margin: 14px 0 70px;
+}
+
+main#about p {
+  margin-bottom: 16px;
+  font-size: 26px;
+  line-height: 37px;
+}
+
+/***************** 
+ *  Blog
+ *****************/
+
+main#blog ul.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main#blog ul.posts li {
+  flex: 0 0 100%;
+  margin-bottom: 64px;
+}
+
+main#blog ul.posts li .image {
+  height: 200px;
+  margin-bottom: 28px;
+  background-color: #94c9ac;
+  border-radius: 15px;
+}
+
+main#blog ul.posts li:nth-child(2n) .image {
+  background-color: #77ba7e;
+}
+
+main#blog ul.posts li .title {
+  margin-bottom: 8px;
+}
+main#blog ul.posts li .date {
+  margin-bottom: 16px;
+}
+main#blog ul.posts li .description {
+  font-size: 16px;
+}
+
+/***************** 
+ *  Work
+ *****************/
+
+main#work ul.projects li {
+  margin-bottom: 76px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+main#work ul.projects li .info {
+  word-break: break-word;
+  margin-top: 16px;
+}
+
+main#work ul.projects li .image {
+  background-color: #77ba7e;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  flex: 0 0 auto;
+}
+
+main#work ul.projects li:nth-child(2n) .image {
+  background-color: #94c9ac;
+}
+
+main#work ul.projects li .title {
+  margin-bottom: 12px;
+}
+
+main#work ul.projects li .description {
+  margin-top: 38px;
+  font-size: 20px;
+  line-height: 27px;
+}
