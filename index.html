@@ -27,7 +27,10 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light h4 mb-5">
+    <nav class="navbar navbar-expand-md navbar-light h5">
+      <a class="navbar-brand" href="/"
+        >Home <span class="sr-only">(current)</span></a
+      >
       <button
         class="navbar-toggler"
         type="button"
@@ -41,13 +44,6 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a href="/blog.html" class="nav-link">Blog</a>
@@ -65,29 +61,38 @@
       </div>
     </nav>
 
-    <div class="container includes-jumbotron-hello">
+    <div class="container includes-jumbotron-hello my-5">
       <div class="jumbotron hello text-center">
-        <h1 class="display-4 my-5">Hi. I'm Orfeas Antoniou</h1>
-        <p class="h4 mb-5">
-          Basic Description. First thing viewers will know about you. Also your
-          skills
+        <h2 class="my-5">Hi. I'm Orfeas Antoniou</h2>
+        <p class="h5 mb-5">
+          A Software Engineer with experience in Project Management. Based in
+          London, UK.
         </p>
         <img class="mx-auto profile img-fluid" src="/img/profile.png" alt="" />
       </div>
     </div>
-
-    <div class="container social my-4">
-      <div class="row">
-        <div class="col-sm">
+    <div class="container social mt-5 fixed-bottom">
+      <div class="row text-center justify-content-around">
+        <div class="col-2">
           <a href="https://github.com/orfeasa">
-            <img src="/img/social/github.svg" alt="github" />
-            Github
+            <figure class="figure">
+              <img
+                src="/img/social/github.svg"
+                class="figure-img img-social rounded mx-auto"
+                alt="Github"
+              />
+            </figure>
           </a>
         </div>
-        <div class="col-sm">
+        <div class="col-2">
           <a href="https://www.linkedin.com/in/orfeasa/">
-            <img src="/img/social/linkedin.svg" alt="linkedin" />
-            LinkedIn
+            <figure class="figure">
+              <img
+                src="/img/social/linkedin.svg"
+                class="figure-img img-social rounded mx-auto"
+                alt="Linkedin"
+              />
+            </figure>
           </a>
         </div>
       </div>
