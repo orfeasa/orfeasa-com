@@ -46,11 +46,11 @@ nav.navbar {
 }
 
 .jumbotron.hello img.profile {
-  max-width: 20%;
+  /* max-width: 100%; */
   border: 4px solid #94c9ac;
   border-radius: 100%;
   overflow-y: visible;
-  margin-bottom: -25%;
+  margin-bottom: -100%;
 }
 
 .jumbotron.hello h1 {
