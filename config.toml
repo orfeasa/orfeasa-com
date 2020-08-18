@@ -1,44 +1,57 @@
 baseurl = "http://www.example.com"
-title = "Orfeas Antoniou (@orfeasa)"
+title = "Orfeas Antoniou"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
-canonifyurls = true
+canonifyurls = false
 
-pygmentsstyle = "bw"
-pygmentscodefences = true
+PygmentsCodeFences = true
 pygmentscodefencesguesssyntax = true
+PygmentsStyle = "monokai"
 
 disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Orfeas Antoniou"
     info = "A Software Engineer with experience in Project Management. Based in London, UK."
-    description = "John Doe's personal website"
+    description = "Orfeas Antoniou personal website"
     keywords = "blog,developer,personal"
     avatarurl = "images/profile.png"
+    #gravatar = "orfeas@orfeasa.com"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Footer text"
+    hidefooter = false    
+    footercontent = ""
 
     hidecredits = true
     hidecopyright = true
 
+    # Enable the Right To Left mode
     rtl = false
 
     math = false
     custom_css = ["css/custom.css"]
+    custom_js = ["js/script.js"]
+
+    # Specify light/dark color scheme
+    # Supported values: "auto", "dark", "light"
+    colorscheme = "auto"
+
+    # Enable Twemoji
+    enableTwemoji = false
+
 
 # Social links
 [[params.social]]
-    name = "Github"
+    name = "GitHub"
     icon = "fab fa-github fa-2x"
+    # icon order
     weight = 1
-    url = "https://github.com/orfeasa"
+    url = "https://github.com/orfeasa/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin fa-2x"
