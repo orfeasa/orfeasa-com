@@ -34,7 +34,7 @@ disqusShortname = "yourdiscussshortname"
     rtl = false
 
     math = false
-    custom_css = ["css/custom.css"]
+    custom_css = ["css/style.css"]
     custom_js = ["js/script.js"]
 
     # Specify light/dark color scheme
@@ -64,6 +64,10 @@ disqusShortname = "yourdiscussshortname"
     weight = 1
     url  = "/posts/"
 [[menu.main]]
-    name = "About"
+    name = "Projects"
     weight = 2
+    url = "/projects/"
+[[menu.main]]
+    name = "About"
+    weight = 3
     url = "/about/"
