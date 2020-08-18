@@ -1,0 +1,13 @@
+/* About container */
+.about {
+  background-image: url("/img/title-bar.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  -webkit-box-shadow: -1px 0px 30px -8px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: -1px 0px 30px -8px rgba(0, 0, 0, 0.51);
+  box-shadow: -1px 0px 30px -8px rgba(0, 0, 0, 0.51);
+  padding-top: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
