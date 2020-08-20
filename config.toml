@@ -35,7 +35,6 @@ disqusShortname = "yourdiscussshortname"
 
     math = false
     custom_css = ["css/style.css"]
-    custom_js = ["js/script.js"]
 
     # Specify light/dark color scheme
     # Supported values: "auto", "dark", "light"
