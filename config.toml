@@ -41,7 +41,7 @@ disqusShortname = "yourdiscussshortname"
     colorscheme = "auto"
 
     # Enable Twemoji
-    enableTwemoji = false
+    enableTwemoji = true
 
 
 # Social links
