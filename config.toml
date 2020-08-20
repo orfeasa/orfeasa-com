@@ -11,8 +11,6 @@ PygmentsCodeFences = true
 pygmentscodefencesguesssyntax = true
 PygmentsStyle = "monokai"
 
-disqusShortname = "yourdiscussshortname"
-
 [params]
     author = "Orfeas Antoniou"
     info = "A Software Engineer with experience in Project Management. Based in London, UK."
@@ -38,7 +36,7 @@ disqusShortname = "yourdiscussshortname"
 
     # Specify light/dark color scheme
     # Supported values: "auto", "dark", "light"
-    colorscheme = "auto"
+    colorscheme = "light"
 
     # Enable Twemoji
     enableTwemoji = true
