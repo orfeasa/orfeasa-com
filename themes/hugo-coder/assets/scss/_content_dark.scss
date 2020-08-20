@@ -44,3 +44,7 @@ body.colorscheme-auto {
     @include content_dark()
   }
 }
+
+.fab {
+  color: $link-color-dark;
+}
