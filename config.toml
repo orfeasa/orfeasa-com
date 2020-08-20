@@ -1,4 +1,4 @@
-baseurl = "https://www.orfeasa.com"
+baseurl = ""
 title = "Orfeas Antoniou"
 theme = "hugo-coder"
 languagecode = "en"
