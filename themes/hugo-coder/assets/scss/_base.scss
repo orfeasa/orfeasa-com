@@ -14,7 +14,7 @@ body {
   background-color: $bg-color;
 	font-family: $text-font-family;
 	font-size: 1.6em;
-	font-weight: 300;
+	font-weight: 500;
   line-height: 1.8em;
   @media only screen and (max-width : 768px) {
     font-size: 1.6em;
@@ -23,12 +23,11 @@ body {
 }
 
 a {
-  font-weight: 300;
   color: $link-color;
   text-decoration: none;
   &:focus,
   &:hover {
-    text-decoration: underline;
+    font-weight: bold;
   }
 }
 
@@ -43,7 +42,6 @@ h4,
 h5,
 h6 {
   font-family: $heading-font-family;
-  font-weight: 700;
   color: $alt-fg-color;
   margin: 6.4rem 0 3.2rem 0;
 }
@@ -189,6 +187,11 @@ figure {
 
 .fab {
   font-weight: 400;
+  color: $alt-text-color;
+  &:hover,
+  &:focus {
+    color: $link-color;
+  }            
 }
 
 .fas {
