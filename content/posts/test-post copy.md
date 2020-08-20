@@ -1,9 +1,9 @@
 +++ 
-draft = true
+draft = false
 date = 2020-08-09T20:43:34+03:00
 title = "String permutation"
 description = "An example with code"
-slug = "" 
+slug = "example-code" 
 tags = []
 categories = []
 externalLink = ""
