@@ -11,6 +11,8 @@ PygmentsCodeFences = true
 pygmentscodefencesguesssyntax = true
 PygmentsStyle = "monokai"
 
+googleAnalytics = "UA-156939402-1"
+
 enableRobotsTXT = true
 
 [params]
