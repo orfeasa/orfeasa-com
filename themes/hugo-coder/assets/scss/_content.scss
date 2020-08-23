@@ -183,5 +183,11 @@
         max-width: 50%;
       }
     }
+    .go-home {
+      text-transform: uppercase;
+      font-family: $heading-font-family;
+      font-size: 3rem;      
+      font-weight: 500;
+    }
   }
 }
