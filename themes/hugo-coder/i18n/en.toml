@@ -18,7 +18,7 @@ other = "Page Not Found"
 other = "Oh no :("
 
 [head_back]
-other = "Go to the <a href=\"{{ . }}\/\">homepage</a>."
+other = "<a href=\"{{ . }}\/\">Go home</a>"
 
 [powered_by]
 other = "Powered by"
