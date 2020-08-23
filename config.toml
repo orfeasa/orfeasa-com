@@ -11,6 +11,8 @@ PygmentsCodeFences = true
 pygmentscodefencesguesssyntax = true
 PygmentsStyle = "monokai"
 
+enableRobotsTXT = true
+
 [params]
     author = "Orfeas Antoniou"
     info = "A Software Engineer with experience in Project Management. Based in London, UK."
