@@ -1,29 +1,30 @@
 +++
-title = "About Hugo"
+title = "About"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+Hi, I'm Orfeas! 👋
+
+I'm a Software Engineer living in London, working at eCademy, a new platform for businesses such as gyms and dance schools to arrange their classes, recurring and not recurring, taking care of payments and including a [zoom](https://zoom.us/) integration!
+
+🎓 I studied Electrical and Computer Engineering at the [Aristotle University of Thessaloniki](https://www.auth.gr/en). This was a 5-year degree that awards a Master's in Engineering, and I graduated in the top 6% of my class.
+While studying I was fascinated by the creative aspect of Software Development, while at the same time I enjoyed the more managerial mindset that I developed by being part of multiple NGOs and events.
+
+🧲 My first full-time job was at [CERN](https://home.cern/) in Geneva, where I simulated a way to evaluate the way particles will travel in the next-generation linear collider [CLIC](https://home.cern/science/accelerators/compact-linear-collider).
 
 
-It makes use of a variety of open source projects including:
+🎯 After dipping my toe in programming and sciencey role, I decided to switch gears and got elected as a member of the Board of [BEST](https://best.eu.org/), a student NGO of 3500 members in 32 countries. This meant a full year of managing the entire organization along with my 6 fellow co-Boardies. This exposed me to the world of Project and People Management.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+📈 Following those 2 experiences, I decided that I would like somehow to combine both worlds as an IT Project Manager, and I started working as one in [Procter & Gamble](https://pg.com/), in Bucharest. This experience taught me how big multinational corporations operate, how to handle big projects and how to communicate and manage expectations with senior stakeholders.
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+🤖 After working at P&G for a year, I realized I wanted to enter the startup worlds and I worked for [Geekbot](https://geekbot.com/), a standup bot for [Slack](https://slack.com/) as an Operations Manager, where I brought my expertise of how to organize a company more effectively and how to establish processes and policies. Being part of a startup, a team that is building a product felt right for me.
 
-## Setup
+⚔ However, at this time I had to join the armed forces and serve for 8 months, as this is mandatory in my country. There, I was part of the Research and Informatics Corps and during this time I decided to switch to Software Engineering as my main focus.
 
-Some fun facts about [Hugo](http://gohugo.io/):
+👨‍💻 In my current job, I am focusing on implementing new features in our Python/Django codebase, to accommodate for the needs of our new clients.
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+🖍️ Also, outside of work, I enjoy delivering training sessions and facilitating workshops for volunteers at [BEST](https://best.eu.org/), and being part of the core team of [DEVit](https://devitconf.org/), the leading web developer conference in South East Europe.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+💬 If you'd like to get in touch with me, feel free to drop me a line:
+- LinkedIn: https://www.linkedin.com/in/orfeasa/
+- GitHub: https://github.com/orfeasa/
