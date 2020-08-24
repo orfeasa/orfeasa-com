@@ -5,7 +5,7 @@ slug = "about"
 
 Hi, I'm Orfeas! 👋
 
-I'm a Software Engineer living in London and working at eCademy, a new platform for businesses such as gyms and dance schools, that helps schedule and book classes, take care of payments and includes a [zoom](https://zoom.us/) integration!
+I'm a Software Engineer living in London and working at [eCademy](https://ecademy.gr/), a new platform for businesses such as gyms and dance schools, that helps schedule and book classes, take care of payments and includes a [zoom](https://zoom.us/) integration!
 
 🎓 I studied Electrical and Computer Engineering at the [Aristotle University of Thessaloniki](https://www.auth.gr/en). This was a 5-year degree that awards a Master's in Engineering, and I graduated in the top 6% of my class.
 While studying I was fascinated by the creative aspect of Software Development, while at the same time I enjoyed the more managerial mindset that I developed by being part of multiple NGOs and events.
@@ -26,7 +26,7 @@ While studying I was fascinated by the creative aspect of Software Development, 
 
 💬 If you'd like to get in touch with me, feel free to drop me a line:
 
-* <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i> LinkedIn: [linkedin.com/in/orfeasa](https://www.linkedin.com/in/orfeasa/)
+* LinkedIn: [linkedin.com/in/orfeasa](https://www.linkedin.com/in/orfeasa/)
 * Telegram: [telegram.me/orfeasa](https://telegram.me/orfeasa)
 * GitHub: [github.com/orfeasa](https://github.com/orfeasa/)
 <!--TODO: add that I write code to build a product and not museum code and fontawesome icons -->
