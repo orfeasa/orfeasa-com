@@ -29,6 +29,20 @@
   <link rel="canonical" href="{{ .Permalink }}">
   {{ end }}
 
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.orfeasa.com" />
+  <meta property="og:title" content="Orfeas Antoniou (@orfeasa)" />
+  <meta property="og:description" content="Orfeas Antoniou - orfeasa.com" />
+  <meta property="og:image" content="/img/social.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.orfeasa.com" />
+  <meta property="twitter:title" content="Orfeas Antoniou (@orfeasa)" />
+  <meta property="twitter:description" content="Orfeas Antoniou - orfeasa.com" />
+  <meta property="twitter:image" content="/img/social.png" />
+
   <!-- Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap"
@@ -95,10 +109,14 @@
   {{ end }}
   {{ end }}
 
-  <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_32 | default "/images/favicon-32x32.png" | absURL }}"
-    sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ .Site.Params.favicon_16 | default "/images/favicon-16x16.png" | absURL }}"
-    sizes="16x16">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/favicon/site.webmanifest" />
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#00aba9" />
+  <meta name="theme-color" content="#ffffff" />
 
   {{ range .AlternativeOutputFormats -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

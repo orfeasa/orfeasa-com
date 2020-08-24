@@ -23,9 +23,6 @@ enableRobotsTXT = true
     avatarurl = "images/profile.png"
     #gravatar = "orfeas@orfeasa.com"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
-
     hidefooter = false    
     footercontent = ""
 
