@@ -31,17 +31,19 @@
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.orfeasa.com" />
-  <meta property="og:title" content="Orfeas Antoniou (@orfeasa)" />
-  <meta property="og:description" content="Orfeas Antoniou - orfeasa.com" />
-  <meta property="og:image" content="/img/social.png" />
+  <meta property="og:url" content="{{ .Site.BaseURL | relLangURL }}" />
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta property="og:description"
+    content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
+  <meta property="og:image" content="{{ .Site.Params.socialimage | relURL }}" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://www.orfeasa.com" />
-  <meta property="twitter:title" content="Orfeas Antoniou (@orfeasa)" />
-  <meta property="twitter:description" content="Orfeas Antoniou - orfeasa.com" />
-  <meta property="twitter:image" content="/img/social.png" />
+  <meta property="twitter:url" content="{{ .Site.BaseURL | relLangURL }}" />
+  <meta property="twitter:title" content="{{ .Site.Title }}" />
+  <meta property="twitter:description"
+    content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
+  <meta property="twitter:image" content="{{ .Site.Params.socialimage | relURL }}" />
 
   <!-- Fonts -->
   <link

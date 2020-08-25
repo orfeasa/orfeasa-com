@@ -21,6 +21,7 @@ enableRobotsTXT = true
     description = "Orfeas Antoniou personal website"
     keywords = "blog,developer,personal"
     avatarurl = "images/profile.png"
+    socialimage = "img/social.png"
     #gravatar = "orfeas@orfeasa.com"
 
     hidefooter = false    
