@@ -21,15 +21,15 @@ I'm a Software Engineer living in London. I like coding and working with people.
 
 👨‍💻 In my current job at [eCademy](https://ecademy.gr/), I am focusing on implementing new features in our Python/Django codebase, to accommodate the needs of our new clients.
 
-🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/), and organising [DEVit](https://devitconf.org/), the leading web developer conference in South-East Europe.
+🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/) and organising [DEVit](https://devitconf.org/), the leading web developer conference in South-East Europe.
 
 🔎 For more details, feel free to check my [LinkedIn profile](https://www.linkedin.com/in/orfeasa/).
 
-### Contact
+### 💬 Contact 
 
-💬 If you'd like to get in touch with me, feel free to drop me a line οr check my profile:
+If you'd like to get in touch with me, feel free to drop me a line οr check my profile:
 
 * LinkedIn: [linkedin.com/in/orfeasa](https://www.linkedin.com/in/orfeasa/)
-* Telegram: [telegram.me/orfeasa](https://telegram.me/orfeasa)
+* Telegram: [t.me/orfeasa](https://t.me/orfeasa)
 * GitHub: [github.com/orfeasa](https://github.com/orfeasa/)
 <!--TODO: add that I write code to build a product and not museum code and fontawesome icons -->
