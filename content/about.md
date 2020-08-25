@@ -5,7 +5,7 @@ slug = "about"
 
 Hi, I'm Orfeas! 👋
 
-I'm a Software Engineer living in London. I like coding and working with people. I've worked in [Geekbot](https://geekbot.com/), [P&G](https://pg.com/), [BEST](https://best.eu.org/) and [CERN](https://home.cern/). I have experience in Python/Django as well as Project Management.
+I'm a Software Engineer living in London. I like coding and working with people. I've worked in [Geekbot](https://geekbot.com/), [P&G](https://pg.com/), [BEST](https://best.eu.org/) and [CERN](https://home.cern/). I have experience in both Python/Django and Project Management.
 
 🎓 I studied Electrical and Computer Engineering at the [Aristotle University of Thessaloniki](https://www.auth.gr/en), a 5-year degree that awards a Master's in Engineering. I graduated in the top 6% of my class.
 
@@ -17,9 +17,9 @@ I'm a Software Engineer living in London. I like coding and working with people.
 
 🤖 After working at P&G for a year, I realised I wanted to enter the startup world and I worked for [Geekbot](https://geekbot.com/), a standup bot for [Slack](https://slack.com/) as an Operations Manager, where I brought my expertise of how to organise a company more effectively and how to establish processes and policies. Being part of a startup, a team that is building a product felt right for me.
 
-⚔ However, at this time I had to join the armed forces and serve for 8 months, as this is mandatory in my country. There, I was part of the Research and Informatics Corps and during this time I decided to switch to Software Engineering as my main focus.
+⚔ However, at this time I had to join the armed forces and serve for 8 months, which is mandatory in my country. There, I was part of the Research and Informatics Corps and during this time I decided to switch to Software Engineering as my main focus.
 
-👨‍💻 In my current job at [eCademy](https://ecademy.gr/), I am focusing on implementing new features in our Python/Django codebase, to accommodate the needs of our new clients.
+👨‍💻 In my current job at [eCademy](https://ecademy.gr/), I am focusing on implementing new features in our Python/Django codebase to accommodate the needs of our new clients.
 
 🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/) and organising [DEVit](https://devitconf.org/), the leading web developer conference in South-East Europe.
 
