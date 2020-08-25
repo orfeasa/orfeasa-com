@@ -35,7 +35,7 @@
   <meta property="og:title" content="{{ .Site.Title }}" />
   <meta property="og:description"
     content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
-  <meta property="og:image" content="{{ .Site.Params.socialimage | relURL }}" />
+  <meta property="og:image" content="{{ .Site.Params.socialimage | absURL }}" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
@@ -43,7 +43,7 @@
   <meta property="twitter:title" content="{{ .Site.Title }}" />
   <meta property="twitter:description"
     content="{{ .Description | default (.Summary | default .Site.Params.description ) }}" />
-  <meta property="twitter:image" content="{{ .Site.Params.socialimage | relURL }}" />
+  <meta property="twitter:image" content="{{ .Site.Params.socialimage | absURL }}" />
 
   <!-- Fonts -->
   <link
