@@ -29,7 +29,8 @@ I'm a Software Engineer living in London. I like coding and working with people.
 
 If you'd like to get in touch with me, feel free to drop me a line οr check my profile:
 
+* GitHub: [github.com/orfeasa](https://github.com/orfeasa/)
+* Email: [orfeas@orfeasa.com](mailto:orfeas@orfeasa.com)
 * LinkedIn: [linkedin.com/in/orfeasa](https://www.linkedin.com/in/orfeasa/)
 * Telegram: [t.me/orfeasa](https://t.me/orfeasa)
-* GitHub: [github.com/orfeasa](https://github.com/orfeasa/)
 <!--TODO: add that I write code to build a product and not museum code and fontawesome icons -->
