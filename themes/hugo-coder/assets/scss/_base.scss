@@ -22,17 +22,20 @@ body {
   }
 }
 
-a {
-  color: $link-color;
-  text-decoration: none;
-  &:focus,
-  &:hover {
-    font-weight: bold;
-  }
-}
 
 p {
   margin: 2.0rem 0 2.0rem 0;
+  a {
+    color: $link-color;
+    text-decoration: none;
+    &:focus,
+    &:hover {
+      border-bottom: 2px solid $link-color;
+      // text-decoration: underline;
+      // text-decoration-color: $link-color;
+      // text-decoration-thickness: from-font;
+    }
+  }
 }
 
 h1,
