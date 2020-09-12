@@ -7,11 +7,14 @@
     font-family: $heading-font-family;
     line-height: 6.0rem;
     color: $fg-color;
+    border-bottom: none;
+    text-decoration: none;
   }
   a {
     &:hover,
     &:focus {
       color: $link-color;
+      font-weight: bold; 
     }
   }
   .navigation-title {

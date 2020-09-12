@@ -27,7 +27,7 @@ I'm a Software Engineer living in London. I like coding and working with people.
 
 ### 💬 Contact 
 
-If you'd like to get in touch with me, feel free to drop me a line οr check my profile:
+If you'd like to get in touch with me, feel free to drop me a line or check my profile:
 
 * GitHub: [github.com/orfeasa](https://github.com/orfeasa/)
 * Email: [orfeas@orfeasa.com](mailto:orfeas@orfeasa.com)
