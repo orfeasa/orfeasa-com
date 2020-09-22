@@ -38,7 +38,7 @@ enableRobotsTXT = true
 
     # Specify light/dark color scheme
     # Supported values: "auto", "dark", "light"
-    colorscheme = "light"
+    colorscheme = "auto"
 
     # Enable Twemoji
     enableTwemoji = true
