@@ -1,12 +1,13 @@
 @mixin content_dark {
 
   .content {
-  
+
     .list {
       ul {
         li {
           .title {
             color: $fg-color-dark;
+
             &:hover,
             &:focus {
               color: $link-color-dark;
@@ -21,7 +22,8 @@
         ul {
           li {
             a {
-              color: $fg-color-dark;
+              color: $alt-text-color-dark;
+
               &:hover,
               &:focus {
                 color: $link-color-dark;
@@ -43,8 +45,4 @@ body.colorscheme-auto {
   @media (prefers-color-scheme: dark) {
     @include content_dark()
   }
-}
-
-.fab {
-  color: $link-color-dark;
 }
