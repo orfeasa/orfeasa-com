@@ -21,7 +21,7 @@ I'm a Software Engineer living in London. I like coding and working with people.
 
 👨‍💻 In my current job at [eCademy](https://ecademy.gr/), I am focusing on implementing new features in our Python/Django codebase to accommodate the needs of our new clients.
 
-🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/), organising [DEVit](https://devitconf.org/), the leading web developer conference in South-East Europe and I'm also the co-host of the [Passio(s) Unraveled podcast](https://www.passionsunraveled.com).
+🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/), organising [DEVit](https://devitconf.org/), the leading web developer conference in South-East Europe and I'm also the co-host of the [Passion(s) Unraveled podcast](https://www.passionsunraveled.com).
 
 🔎 For more details, feel free to check my [LinkedIn profile](https://www.linkedin.com/in/orfeasa/).
 
