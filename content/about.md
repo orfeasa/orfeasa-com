@@ -19,13 +19,15 @@ I'm a Software Engineer living in London. I like coding and working with people.
 
 ⚔ However, at this time I had to join the armed forces and serve for 8 months, which is mandatory in my country. There, I was part of the Research and Informatics Corps and during this time I decided to switch to Software Engineering as my main focus.
 
-👨‍💻 In my current job at [eCademy](https://ecademy.gr/), I am focusing on implementing new features in our Python/Django codebase to accommodate the needs of our new clients.
+👨‍💻 After that I worked at [eCademy](https://ecademy.gr/), implementing new features in Python/Django to accommodate the needs of new clients.
+
+🔭 Currently, I'm working at [Thought Machine](https://thoughtmachine.net/) as a Backend Engineer, on our cloud-native core banking platform
 
 🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/), organising [DEVit](https://devitconf.org/), the leading web developer conference in South-East Europe and I'm also the co-host of the [Passion(s) Unraveled](https://www.passionsunraveled.com) podcast.
 
 🔎 For more details, feel free to check my [LinkedIn profile](https://www.linkedin.com/in/orfeasa/).
 
-### 💬 Contact 
+### 💬 Contact
 
 If you'd like to get in touch with me, feel free to drop me a line or check my profile:
 
@@ -33,4 +35,3 @@ If you'd like to get in touch with me, feel free to drop me a line or check my p
 * Email: [orfeas@orfeasa.com](mailto:orfeas@orfeasa.com)
 * LinkedIn: [linkedin.com/in/orfeasa](https://www.linkedin.com/in/orfeasa/)
 * Telegram: [t.me/orfeasa](https://t.me/orfeasa)
-<!--TODO: add that I write code to build a product and not museum code and fontawesome icons -->
