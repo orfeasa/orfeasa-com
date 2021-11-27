@@ -123,7 +123,7 @@ Working for them
 
 ### Interview call checklist
 
-- [ ] Research company (view checklist)
+- [ ] Research company ([view checklist](#company-research-checklist))
 - [ ] Prepare area:
   - [ ] close windows
   - [ ] lights on
