@@ -9,10 +9,13 @@ categories = []
 externalLink = ""
 series = []
 +++
+## Intro
 
+This is a collection of my notes about finding a job. They are slightly biased toward a tech-related job but the principles and majority of content is applicable for jobs in most fields.
 
-Contents:
+They are broken down into the following parts:
 
+- [Intro](#intro)
 - [Applying](#applying)
   - [Applying through LinkedIn](#applying-through-linkedin)
   - [Company research checklist](#company-research-checklist)
@@ -30,9 +33,11 @@ Contents:
     - [What you can negotiate](#what-you-can-negotiate)
     - [Asking for more](#asking-for-more)
     - [Deadline](#deadline)
-  - [Offer Negotiation Resources](#offer-negotiation-resources)
 - [Handling Rejection](#handling-rejection)
   - [Rejection mail reply](#rejection-mail-reply)
+- [Resources](#resources)
+
+
 
 ## Applying
 
@@ -269,12 +274,6 @@ Deadline should be a business day.
 Trump card:
 > Hi Joel, I’ve been thinking it over and it’s genuinely a really tough decision for me. I loved everyone at [COMPANY] but the one thing that makes it hard for me is the salary. As you know I’m trying to pay off my student loans so salary is really important to me right now. If you can improve the salary by 10K a year, then I’ll be totally ready to sign.
 
-### Offer Negotiation Resources
-
-- [On replying and receiving offers](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
-- [On negotiating the final offer (cont from prev)](https://haseebq.com/how-not-to-bomb-your-offer-negotiation/)
-- <https://www.kalzumeus.com/2012/01/23/salary-negotiation/>
-
 ## Handling Rejection
 
 ### Rejection mail reply
@@ -299,3 +298,15 @@ Alternative answer:
 >
 > Best,
 > [Name]
+
+## Resources
+
+General resources:
+
+- [Cracking the Tech Career](https://www.crackingthetechcareer.com/): a great book with resources including resumes, cover letters, interview prep
+
+On offer negotiations:
+
+- [On replying and receiving offers](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+- [On negotiating the final offer (cont from prev)](https://haseebq.com/how-not-to-bomb-your-offer-negotiation/)
+- [General mindset and excellent read on salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
