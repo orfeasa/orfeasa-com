@@ -34,4 +34,3 @@ If you'd like to get in touch with me, feel free to drop me a line or check my p
 * GitHub: [github.com/orfeasa](https://github.com/orfeasa/)
 * Email: [orfeas@orfeasa.com](mailto:orfeas@orfeasa.com)
 * LinkedIn: [linkedin.com/in/orfeasa](https://www.linkedin.com/in/orfeasa/)
-* Telegram: [t.me/orfeasa](https://t.me/orfeasa)
