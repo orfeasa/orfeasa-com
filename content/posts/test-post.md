@@ -1,9 +1,9 @@
-+++ 
-draft = false
++++
+draft = true
 date = 2020-08-09T20:43:34+03:00
 title = "Test - Posuere pudori"
 description = "Lorem markdownum attrahitur eversam praemia: aciem erat haud cum: quot. Qui dis"
-slug = "example-text" 
+slug = "example-text"
 tags = []
 categories = []
 externalLink = ""
