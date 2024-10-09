@@ -18,46 +18,46 @@ googleAnalytics = "G-PQTFXJSMPH"
 enableRobotsTXT = true
 
 [params]
-    author = "Orfeas Antoniou"
-    info = "A Software Engineer with experience in Project Management. Based in London, UK."
-    description = "Orfeas Antoniou personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "images/profile.png"
-    socialimage = "img/social.png"
-    #gravatar = "orfeas@orfeasa.com"
+author = "Orfeas Antoniou"
+info = "A Software Engineer with experience in Project Management. Based in London, UK."
+description = "Orfeas Antoniou personal website"
+keywords = "blog,developer,personal"
+avatarurl = "images/profile.png"
+socialimage = "img/social.png"
+#gravatar = "orfeas@orfeasa.com"
 
-    hidefooter = false    
-    footercontent = ""
+hidefooter = false
+footercontent = ""
 
-    hidecredits = true
-    hidecopyright = true
+hidecredits = true
+hidecopyright = true
 
-    # Enable the Right To Left mode
-    rtl = false
+# Enable the Right To Left mode
+rtl = false
 
-    math = false
-    custom_css = ["css/style.css"]
+math = false
+custom_css = ["css/style.css"]
 
-    # Specify light/dark color scheme
-    # Supported values: "auto", "dark", "light"
-    colorscheme = "auto"
+# Specify light/dark color scheme
+# Supported values: "auto", "dark", "light"
+colorscheme = "auto"
 
-    # Enable Twemoji
-    enableTwemoji = false
+# Enable Twemoji
+enableTwemoji = false
 
 
 # Social links
 [[params.social]]
-    name = "GitHub"
-    icon = "fab fa-github fa-2x"
-    # icon order
-    weight = 1
-    url = "https://github.com/orfeasa/"
+name = "GitHub"
+icon = "fab fa-github fa-2x"
+# icon order
+weight = 1
+url = "https://github.com/orfeasa/"
 [[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
-    weight = 3
-    url = "https://www.linkedin.com/in/orfeasa/"
+name = "LinkedIn"
+icon = "fab fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/orfeasa/"
 
 # Menu links
 # [[menu.main]]
@@ -69,6 +69,6 @@ enableRobotsTXT = true
 #     weight = 2
 #     url = "/projects/"
 [[menu.main]]
-    name = "About"
-    weight = 3
-    url = "/about/"
+name = "About"
+weight = 3
+url = "/about/"
