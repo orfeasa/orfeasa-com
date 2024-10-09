@@ -41,7 +41,7 @@ enableRobotsTXT = true
     colorscheme = "auto"
 
     # Enable Twemoji
-    enableTwemoji = true
+    enableTwemoji = false
 
 
 # Social links
