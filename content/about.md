@@ -5,23 +5,23 @@ slug = "about"
 
 Hi, I'm Orfeas! 👋
 
-Orfeas Antoniou is an Engineering Manager at [Thought Machine](https://thoughtmachine.net/) in London, leading a team responsible for core banking services within Vault Core. He specialises in backend systems and distributed services, with a background in Go and gRPC microservices. Orfeas focuses on turning ambiguous problems into clear milestones, keeping delivery predictable, and improving operational readiness through strong engineering standards and pragmatic coaching.
+I'm an Engineering Manager at [Thought Machine](https://thoughtmachine.net/) in London, where I lead a team responsible for core banking services in Vault Core. My background is in backend and distributed systems, with hands-on experience in Go, Python, and gRPC microservices. I enjoy taking messy, ambiguous problems and turning them into clear milestones, predictable delivery, and better operational readiness.
 
 ### What I Do
 
-- Lead an engineering team responsible for a core banking service area in Vault Core.
-- Own delivery for client commitments: planning, prioritisation, sequencing, and risk management.
-- Partner closely with Product and stakeholders to turn requirements into milestones and decisions.
-- Improve service health: reliability, observability, runbooks, and incident learning.
-- Coach engineers through 1:1s, feedback, and clear standards, while distributing technical ownership across the team.
+- I lead an engineering team responsible for a core banking service area in Vault Core.
+- I own delivery for client commitments: planning, prioritisation, sequencing, and risk management.
+- I work closely with Product and stakeholders to turn requirements into milestones and decisions.
+- I improve service health through reliability work, observability, runbooks, and incident learning.
+- I coach engineers through 1:1s, feedback, and clear standards, while spreading technical ownership across the team.
 
 ### How I Work
 
-My work sits at the intersection of delivery, reliability, and engineering growth: shaping execution rhythms, keeping scope tight, and making trade-offs explicit so teams can ship with confidence. I focus on operational excellence and sustainable delivery, raising standards through clear expectations, useful feedback, and lightweight process that helps engineers move faster without becoming a bottleneck.
+I care about three things: delivery, reliability, and engineering growth. I try to keep scope clear, make trade-offs explicit, and set a rhythm that helps the team ship confidently. I prefer lightweight process, clear expectations, and practical feedback so standards go up without slowing people down.
 
 ### Background
 
-I have a backend engineering background in Go and Python, with experience designing APIs and scaling distributed systems. Previously, I have worked in environments ranging from large enterprises to startups, including [Procter & Gamble](https://pg.com/), [Geekbot](https://geekbot.com/), and [CERN](https://home.cern/).
+Before moving into engineering management, I worked as a backend engineer on APIs and distributed systems. I've worked in both large companies and startups, including [Procter & Gamble](https://pg.com/), [Geekbot](https://geekbot.com/), and [CERN](https://home.cern/).
 
 🎓 I studied Electrical and Computer Engineering at the [Aristotle University of Thessaloniki](https://www.auth.gr/en), a 5-year degree that awards a Master's in Engineering.
 
