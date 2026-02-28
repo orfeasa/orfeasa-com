@@ -36,11 +36,11 @@ hidecopyright = true
 rtl = false
 
 math = false
-custom_css = ["css/style.css"]
+customCSS = ["css/style.css"]
 
 # Specify light/dark color scheme
 # Supported values: "auto", "dark", "light"
-colorscheme = "auto"
+colorScheme = "auto"
 
 # Enable Twemoji
 enableTwemoji = false

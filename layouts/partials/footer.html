@@ -1,0 +1,28 @@
+{{ $hideFooter := .Site.Params.hidefooter | default .Site.Params.hideFooter | default false }}
+{{ if not $hideFooter }}
+  {{ $hideCopyright := .Site.Params.hidecopyright | default .Site.Params.hideCopyright | default false }}
+  {{ $hideCredits := .Site.Params.hidecredits | default .Site.Params.hideCredits | default false }}
+  {{ $footerContent := .Site.Params.footercontent | default .Site.Params.footerContent }}
+  <footer class="footer">
+    <section class="container">
+      {{ with $footerContent | safeHTML }}
+        <p>{{ . }}</p>
+      {{ end }}
+      {{ if not $hideCopyright }}
+        ©
+        {{ if and (.Site.Params.since) (lt .Site.Params.since now.Year) }}
+          {{ .Site.Params.since }} -
+        {{ end }}
+        {{ now.Year }}
+        {{ with (.Site.Params.author | default .Site.Params.Author) }} {{ . }} {{ end }}
+      {{ end }}
+      {{ if not $hideCredits }}
+        {{ if not $hideCopyright }} · {{ end }}
+        {{ i18n "powered_by" }} <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+      {{ end }}
+      {{ if and .Site.Params.commit .GitInfo }}
+        [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}" target="_blank" rel="noopener">{{ .GitInfo.AbbreviatedHash }}</a>]
+      {{ end }}
+    </section>
+  </footer>
+{{ end }}
