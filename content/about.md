@@ -5,25 +5,27 @@ slug = "about"
 
 Hi, I'm Orfeas! 👋
 
-I'm a Software Engineer living in London. I like coding and working with people. I've worked in [Geekbot](https://geekbot.com/), [P&G](https://pg.com/), [BEST](https://best.eu.org/) and [CERN](https://home.cern/). I have experience in both Python/Django and Project Management.
+Orfeas Antoniou is an Engineering Manager at [Thought Machine](https://thoughtmachine.net/) in London, leading a team responsible for core banking services within Vault Core. He specialises in backend systems and distributed services, with a background in Go and gRPC microservices. Orfeas focuses on turning ambiguous problems into clear milestones, keeping delivery predictable, and improving operational readiness through strong engineering standards and pragmatic coaching.
 
-🎓 I studied Electrical and Computer Engineering at the [Aristotle University of Thessaloniki](https://www.auth.gr/en), a 5-year degree that awards a Master's in Engineering. I graduated in the top 6% of my class.
+### What I Do
 
-🧲 My first full-time job was at [CERN](https://home.cern/) in Geneva, where I simulated particle trajectories for the next-generation linear collider [CLIC](https://home.cern/science/accelerators/compact-linear-collider).
+- Lead an engineering team responsible for a core banking service area in Vault Core.
+- Own delivery for client commitments: planning, prioritisation, sequencing, and risk management.
+- Partner closely with Product and stakeholders to turn requirements into milestones and decisions.
+- Improve service health: reliability, observability, runbooks, and incident learning.
+- Coach engineers through 1:1s, feedback, and clear standards, while distributing technical ownership across the team.
 
-🎯 Shifting towards Project and People Management, I got elected as a member of the Board of [BEST](https://best.eu.org/), managing a student NGO of 3500 members in 32 countries.
+### How I Work
 
-📈 I then started working as an IT Project Manager in [Procter & Gamble](https://pg.com/), in Bucharest. This experience taught me how big multinational corporations operate, how to handle big projects and how to communicate and manage expectations with senior stakeholders.
+My work sits at the intersection of delivery, reliability, and engineering growth: shaping execution rhythms, keeping scope tight, and making trade-offs explicit so teams can ship with confidence. I focus on operational excellence and sustainable delivery, raising standards through clear expectations, useful feedback, and lightweight process that helps engineers move faster without becoming a bottleneck.
 
-🤖 After working at P&G for a year, I realised I wanted to enter the startup world and I worked for [Geekbot](https://geekbot.com/), a standup bot for [Slack](https://slack.com/) as an Operations Manager, where I brought my expertise of how to organise a company more effectively and how to establish processes and policies. Being part of a startup, a team that is building a product felt right for me.
+### Background
 
-⚔ However, at this time I had to join the armed forces and serve for 8 months, which is mandatory in my country. There, I was part of the Research and Informatics Corps and during this time I decided to switch to Software Engineering as my main focus.
+I have a backend engineering background in Go and Python, with experience designing APIs and scaling distributed systems. Previously, I have worked in environments ranging from large enterprises to startups, including [Procter & Gamble](https://pg.com/), [Geekbot](https://geekbot.com/), and [CERN](https://home.cern/).
 
-📅 After that I worked at [eCademy](https://ecademy.gr/), helping businesses adapt to Covid-19 and moving their operations online. I implemented new features in Python/Django to accommodate the needs of new clients.
+🎓 I studied Electrical and Computer Engineering at the [Aristotle University of Thessaloniki](https://www.auth.gr/en), a 5-year degree that awards a Master's in Engineering.
 
-🔭 Currently, I'm working at [Thought Machine](https://thoughtmachine.net/) as a Backend Engineer, on our cloud-native core banking platform.
-
-🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/), organising [DEVit](https://devitconf.org/), the leading web developer conference in South-East Europe and I'm also the co-host of the [Passion(s) Unraveled](https://www.passionsunraveled.com) podcast.
+🖍️ Outside of work, I enjoy delivering training sessions at [BEST](https://best.eu.org/) and organising [DEVit](https://devitconf.org/).
 
 🔎 For more details, feel free to check my [LinkedIn profile](https://www.linkedin.com/in/orfeasa/).
 

@@ -19,9 +19,9 @@ enableRobotsTXT = true
 
 [params]
 author = "Orfeas Antoniou"
-info = "A Software Engineer with experience in Project Management. Based in London, UK."
-description = "Orfeas Antoniou personal website"
-keywords = "blog,developer,personal"
+info = "Engineering Manager at Thought Machine (London), leading a team building and operating cloud-native core banking services."
+description = "Engineering Manager at Thought Machine in London, leading a team responsible for core banking services within Vault Core."
+keywords = "engineering management,backend engineering,go,grpc,microservices,distributed systems,reliability,operational excellence,fintech,core banking,delivery management,stakeholder management,technical leadership"
 avatarurl = "images/profile.png"
 socialimage = "img/social.png"
 #gravatar = "orfeas@orfeasa.com"
