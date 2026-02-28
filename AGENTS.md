@@ -6,7 +6,7 @@ This repository contains the source for `orfeasa.com`, a personal website built 
 
 - Framework: Hugo (extended build recommended)
 - Theme: `hugo-coder` (git submodule at `themes/hugo-coder`)
-- Hosting/CI: Netlify
+- Hosting/CI: GitHub Pages (GitHub Actions)
 
 ## Project Structure
 
@@ -18,7 +18,7 @@ This repository contains the source for `orfeasa.com`, a personal website built 
 - `static/`: Static assets copied directly to output (images, favicon files, fonts, CSS, PDF).
 - `archetypes/`: Default template for new content files.
 - `themes/hugo-coder/`: Theme source (submodule).
-- `netlify.toml`: Netlify build and environment configuration.
+- `.github/workflows/hugo.yml`: Build + deploy workflow for GitHub Pages.
 
 ## Local Development
 
@@ -52,17 +52,17 @@ Build output is generated in `public/`.
 - Posts use front matter in TOML format (`+++` blocks).
 - `draft = true` posts are excluded from normal production builds.
 - Current menu entries are configured in `config.toml` under `[[menu.main]]`.
-- Custom site-level CSS overrides live in `static/css/style.css`; most styling comes from `hugo-coder`.
+- Custom site-level CSS overrides live in `assets/css/style.css`; most styling comes from `hugo-coder`.
 
 ## Deployment Notes
 
-Netlify configuration is defined in `netlify.toml`:
+GitHub Pages deployment is defined in `.github/workflows/hugo.yml`:
 
-- Main build command: `hugo --gc --minify`
-- Hugo version pinned in deploy env: `0.135.0`
-- Preview/branch deploys set base URLs via `$DEPLOY_PRIME_URL`
+- Trigger: pushes to `main` (and manual `workflow_dispatch`)
+- Build command: `hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"`
+- Hugo version pinned in workflow env (`HUGO_VERSION`)
 
-If local Hugo is newer than Netlify's configured version, verify rendering parity before publishing major style or template changes.
+If local Hugo differs from the workflow version, verify rendering parity before publishing major style or template changes.
 
 ## Practical Guidance For Future Agents
 

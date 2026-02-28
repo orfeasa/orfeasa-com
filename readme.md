@@ -1,6 +1,6 @@
 # orfeasa-com
 
-The code of the website [orfeasa.com](https://www.orfeasa.com/). Built with [Hugo](https://gohugo.io/) and based on the [Coder](https://github.com/luizdepra/hugo-coder/) theme. Deployed with [Netlify](https://app.netlify.com/).
+The code of the website [orfeasa.com](https://www.orfeasa.com/). Built with [Hugo](https://gohugo.io/) and based on the [Coder](https://github.com/luizdepra/hugo-coder/) theme. Deployed with [GitHub Pages](https://pages.github.com/).
 
 ## Development
 
