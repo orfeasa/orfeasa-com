@@ -26,7 +26,7 @@ avatarurl = "images/profile.png"
 socialimage = "img/social.png"
 #gravatar = "orfeas@orfeasa.com"
 
-hidefooter = false
+hidefooter = true
 footercontent = ""
 
 hidecredits = true

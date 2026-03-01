@@ -1,7 +1,16 @@
-{{ $hideFooter := .Site.Params.hidefooter | default .Site.Params.hideFooter | default false }}
+{{ $hideFooter := false }}
+{{ if or (eq .Site.Params.hidefooter true) (eq .Site.Params.hideFooter true) }}
+  {{ $hideFooter = true }}
+{{ end }}
 {{ if not $hideFooter }}
-  {{ $hideCopyright := .Site.Params.hidecopyright | default .Site.Params.hideCopyright | default false }}
-  {{ $hideCredits := .Site.Params.hidecredits | default .Site.Params.hideCredits | default false }}
+  {{ $hideCopyright := false }}
+  {{ if or (eq .Site.Params.hidecopyright true) (eq .Site.Params.hideCopyright true) }}
+    {{ $hideCopyright = true }}
+  {{ end }}
+  {{ $hideCredits := false }}
+  {{ if or (eq .Site.Params.hidecredits true) (eq .Site.Params.hideCredits true) }}
+    {{ $hideCredits = true }}
+  {{ end }}
   {{ $footerContent := .Site.Params.footercontent | default .Site.Params.footerContent }}
   <footer class="footer">
     <section class="container">
