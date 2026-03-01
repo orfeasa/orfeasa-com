@@ -13,11 +13,12 @@ This repository contains the source for `orfeasa.com`, a personal website built 
 - `config.toml`: Main Hugo configuration (site params, social links, menu, theme settings).
 - `content/`: Markdown content pages and blog posts.
   - `content/about.md`: Main about page.
-  - `content/projects.md`: Projects page.
   - `content/posts/`: Blog posts (published and drafts).
 - `static/`: Static assets copied directly to output (images, favicon files, fonts, CSS, PDF).
+- `assets/`: Hugo Pipes assets (for example custom CSS loaded via `customCSS`).
 - `archetypes/`: Default template for new content files.
 - `themes/hugo-coder/`: Theme source (submodule).
+- `layouts/`: Local template overrides (for example footer behavior).
 - `.github/workflows/hugo.yml`: Build + deploy workflow for GitHub Pages.
 
 ## Local Development
@@ -53,6 +54,7 @@ Build output is generated in `public/`.
 - `draft = true` posts are excluded from normal production builds.
 - Current menu entries are configured in `config.toml` under `[[menu.main]]`.
 - Custom site-level CSS overrides live in `assets/css/style.css`; most styling comes from `hugo-coder`.
+- Footer visibility is controlled by `hidefooter` in `config.toml`, with behavior implemented in `layouts/partials/footer.html`.
 
 ## Deployment Notes
 
