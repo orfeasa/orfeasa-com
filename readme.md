@@ -46,7 +46,9 @@ The generated site is written to `public/`.
 - Draft posts are excluded from normal production builds.
 - Menu entries are configured in `config.toml` under `[[menu.main]]`.
 - Custom CSS lives in `assets/css/style.css`.
+- Custom fonts are bundled in `static/fonts/`.
 - Footer visibility is controlled by `hidefooter` in `config.toml`, with behavior implemented in `layouts/partials/footer.html`.
+- The 404 page is overridden in `layouts/partials/404.html`.
 
 ## Deployment
 
