@@ -31,8 +31,7 @@ Before moving into engineering management, I worked as a backend engineer on API
 
 ### 💬 Contact
 
-If you'd like to get in touch with me, feel free to drop me a line or check my profile:
+If you'd like to get in touch, feel free to check my profile:
 
 * GitHub: [github.com/orfeasa](https://github.com/orfeasa/)
-* Email: [orfeas@orfeasa.com](mailto:orfeas@orfeasa.com)
 * LinkedIn: [linkedin.com/in/orfeasa](https://www.linkedin.com/in/orfeasa/)
