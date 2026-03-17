@@ -70,10 +70,126 @@
   --oa-body-font: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --oa-display-font: "Victor Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  --oa-accent: #246b45;
+  --oa-accent-soft: #94c9ac;
+}
+
+body.colorscheme-dark {
+  --oa-accent: #8bffc1;
+  --oa-accent-soft: #94c9ac;
+}
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto {
+    --oa-accent: #8bffc1;
+    --oa-accent-soft: #94c9ac;
+  }
 }
 
 body {
   font-family: var(--oa-body-font);
+}
+
+.wrapper a:hover,
+.wrapper a:focus,
+.wrapper a:active {
+  color: var(--oa-accent);
+}
+
+body.colorscheme-dark .wrapper a:hover,
+body.colorscheme-dark .wrapper a:focus,
+body.colorscheme-dark .wrapper a:active {
+  color: var(--oa-accent);
+}
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .wrapper a:hover,
+  body.colorscheme-auto .wrapper a:focus,
+  body.colorscheme-auto .wrapper a:active {
+    color: var(--oa-accent);
+  }
+}
+
+.navigation-title {
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.navigation a:hover,
+.navigation a:focus,
+.navigation a:active {
+  color: var(--oa-accent);
+}
+
+.content article a:not(.title-link):link,
+.content article a:not(.title-link):visited,
+.content article a:not(.title-link):hover,
+.content article a:not(.title-link):focus,
+.content article a:not(.title-link):active {
+  color: var(--oa-accent);
+  text-decoration: none;
+}
+
+.content article a:not(.title-link):link,
+.content article a:not(.title-link):visited {
+  border-bottom: 2px solid transparent;
+}
+
+.content article a:not(.title-link):hover,
+.content article a:not(.title-link):focus,
+.content article a:not(.title-link):active {
+  text-decoration: none;
+  border-bottom-color: currentColor;
+}
+
+.error a:link,
+.error a:visited,
+.error a:hover,
+.error a:focus,
+.error a:active,
+.taxonomy a:link,
+.taxonomy a:visited,
+.taxonomy a:hover,
+.taxonomy a:focus,
+.taxonomy a:active,
+.pagination a:link,
+.pagination a:visited,
+.pagination a:hover,
+.pagination a:focus,
+.pagination a:active,
+.heading-link:link,
+.heading-link:visited,
+.heading-link:hover,
+.heading-link:focus,
+.heading-link:active {
+  color: var(--oa-accent);
+  text-decoration: none;
+}
+
+.error a:hover,
+.error a:focus,
+.error a:active,
+.taxonomy a:hover,
+.taxonomy a:focus,
+.taxonomy a:active,
+.pagination a:hover,
+.pagination a:focus,
+.pagination a:active,
+.heading-link:hover,
+.heading-link:focus,
+.heading-link:active {
+  color: var(--oa-accent);
+  text-decoration: none;
+}
+
+.title-link:hover,
+.title-link:focus,
+.title-link:active,
+.list ul li .title:hover,
+.list ul li .title:focus,
+.list ul li .title:active {
+  color: var(--oa-accent);
+  text-decoration: none;
 }
 
 h1,
@@ -119,10 +235,47 @@ samp {
   text-wrap: balance;
 }
 
+.content .about ul li a:link,
+.content .about ul li a:visited {
+  color: var(--oa-accent-soft);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.content .about ul li a:hover,
+.content .about ul li a:focus,
+.content .about ul li a:active,
+.content .about ul li a:hover i,
+.content .about ul li a:focus i,
+.content .about ul li a:active i {
+  color: var(--oa-accent);
+}
+
+.content .about ul li a i {
+  color: inherit;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.content .about ul li a:hover i,
+.content .about ul li a:focus i,
+.content .about ul li a:active i {
+  transform: translateY(-2px);
+}
+
 .content article h1,
 .content article h2,
 .content article h3 {
   letter-spacing: -0.01em;
+}
+
+.error img {
+  display: block;
+  width: min(100%, 28rem);
+  margin: 2rem auto;
+}
+
+.error .go-home {
+  margin-top: 0;
 }
 
 /* About container */
