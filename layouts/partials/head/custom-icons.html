@@ -1,0 +1,17 @@
+{{ $faviconSVG := index .Site.Params "faviconsvg" | default "/favicon/safari-pinned-tab.svg" }}
+{{ $favicon32 := index .Site.Params "favicon_32" | default "/favicon/favicon-32x32.png" }}
+{{ $favicon16 := index .Site.Params "favicon_16" | default "/favicon/favicon-16x16.png" }}
+{{ $touchIcon := index .Site.Params "touchicon" | default "/favicon/apple-touch-icon.png" }}
+{{ $manifest := index .Site.Params "manifest" | default "/favicon/site.webmanifest" }}
+{{ $maskIcon := index .Site.Params "mask_icon" | default "/favicon/safari-pinned-tab.svg" }}
+{{ $maskIconColor := index .Site.Params "mask_icon_color" | default "#00aba9" }}
+
+<link rel="icon" type="image/svg+xml" href="{{ $faviconSVG | relURL }}" sizes="any">
+<link rel="icon" type="image/png" href="{{ $favicon32 | relURL }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ $favicon16 | relURL }}" sizes="16x16">
+
+<link rel="apple-touch-icon" href="{{ $touchIcon | relURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ $touchIcon | relURL }}">
+
+<link rel="manifest" href="{{ $manifest | relURL }}">
+<link rel="mask-icon" href="{{ $maskIcon | relURL }}" color="{{ $maskIconColor }}">

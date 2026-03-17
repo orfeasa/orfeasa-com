@@ -24,6 +24,13 @@ description = "Engineering Manager at Thought Machine in London, leading a team 
 keywords = "engineering management,backend engineering,go,grpc,microservices,distributed systems,reliability,operational excellence,fintech,core banking,delivery management,stakeholder management,technical leadership"
 avatarurl = "images/profile.png"
 socialimage = "img/social.png"
+faviconSVG = "/favicon/safari-pinned-tab.svg"
+favicon_32 = "/favicon/favicon-32x32.png"
+favicon_16 = "/favicon/favicon-16x16.png"
+touchicon = "/favicon/apple-touch-icon.png"
+manifest = "/favicon/site.webmanifest"
+mask_icon = "/favicon/safari-pinned-tab.svg"
+mask_icon_color = "#00aba9"
 #gravatar = "orfeas@orfeasa.com"
 
 hidefooter = true
