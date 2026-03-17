@@ -2,7 +2,7 @@
 draft = false
 date = 2021-11-27T12:01:37Z
 title = "Notes for job hunting"
-description = ""
+description = "Notes and checklists for job searching, interviewing, and negotiating offers."
 slug = "job-hunt"
 tags = []
 categories = []
@@ -11,7 +11,7 @@ series = []
 +++
 ## Intro
 
-This is a collection of my notes about finding a job. They are slightly biased toward a tech-related job but the principles and majority of content is applicable for jobs in most fields.
+This is a collection of my notes about finding a job. They are slightly biased toward software and engineering roles, but the principles and most of the content are applicable to jobs in many fields.
 
 They are broken down into the following parts:
 
@@ -47,9 +47,9 @@ Cold-message recruiter
 
 > Hi David!
 >
-> My name is [Name] and I’m a Software Engineer.
+> My name is [Name] and I work in [your field/current role].
 >
-> I’m sure you are extremely busy but if there are any job openings around Software Engineering, I would love the chance to talk about why I might be a good fit.
+> I’m sure you are extremely busy, but if there are any openings in [area/role family], I’d love the chance to talk about why I might be a good fit.
 >
 > Thank you and have a great day!
 >
@@ -63,9 +63,9 @@ Send message to recruiter about position
 
 > Hi (Recruiter)!
 >
-> My name is [Name] and I’m a Software Engineer.
+> My name is [Name] and I work in [your field/current role].
 >
-> If you have a second, I would love the chance to discuss how my skills and experiences might match the (Job Title) I’ve applied for.
+> If you have a second, I’d love the chance to discuss how my background might match the [Job Title] role I’ve applied for.
 >
 > Thanks for connecting and I hope you have a great day!
 
